@@ -1,0 +1,43 @@
+
+CORRIDAS (En el alineamiento con Tamarindus Indica). También hay alineamiento contra mitocondrias y otros genomas de cloroplasto.
+UNA-49 (314v2) 117M, 625,966 reads. Aligned (8.57M, 321,604) reads
+IonXpress_017	Peltogyne mexicana 3	103,477	15.48	99.47%
+IonXpress_018	Peltogyne mexicana 5	85,303	12.95	99.30%
+IonXpress_019	Peltogyne mexicana 7	132,824	25.03	99.58%
+
+UNA-48 (314v2) 146 M, 679,266 reads, Aligned: 13.5, 320 266 reads
+IonXpress_020	Peltogyne mexicana sn	139,281	30.01	99.55%
+IonXpress_021	Peltogyne mexicana 2	110,253	27.61	99.47%
+IonXpress_022	Peltogyne mexicana 4	120,672	26.39	99.55%
+
+UNA-51 (316v2) 1,858,772 reads, 499 M total bases, 30.8 M aligned bases. Tres muestras por separado hubiera quedado a 62x
+IonXpress_023	None	1,089,657	188	98.91%
+
+¿Cuál es la distribución de tamaño de lecturas para reads alineados y sin alinear?
+
+Los chips tienen en orden esta cantidad de reads: 
+400,000-550,000 
+2-3 millones 
+4-5.5
+
+Throughput
+30-50 Mb 1
+60-100 Mb 6
+300-600 Mb 11
+
+Preguntas ¿Alguna de estas muestras ya alcanza para ensamblar?
+Para responderlo: Ensamblar con SPAdes y MIRA, alinear al genoma de Tamarindus Indica y ver calidad
+
+¿Estos genomas ya alcanzan para ver variantes de una población a otra?
+Para responderlo: Alinear contra los ensambles de SPAdes y buscar variantes, hacer esto de una población a otra
+
+¿Qué es mejor? ¿Calibrar o no calibrar?
+Para el ensamblaje ¿Qué salio mejor?
+Para la búsqueda de variantes ¿Qué salió mejor?
+
+Pruebas realizadas hasta el momento:
+
+Corrida 49: Fue realineada contra:
+Multiples genomas de cloroplasto. Donde el de mayor profundidad fue Senna Tora. Esta misma prueba debe repetirse incluyendo a Tamarindus Indica. También fue alineado contra cuatro genomas mitocondriales, sólo el 2 % de lecturas fueron alineadas.
+Fue alineado 11% contra el ensamblaje de NOVO con 50% de lecturas de MIRA. 11% bases alineadas
+Contra los contigs c2 y c3 8% de bases alineadas
